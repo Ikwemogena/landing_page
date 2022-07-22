@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300&display=swap');
+
+:root{
+    --dark-background: #1F2937;
+    --awesome-logo: #F9FAF8;
+    --secondary: #3E5E7EB;
+    --button: #3882f6;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', Courier, monospace;
+}
+
+
+img{
+    width: 410px;
+    height: 220px;
+    border-radius: 2rem;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 10.5rem;
+}
+.main{
+    background-color: var(--dark-background);
+}
+
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--awesome-logo);    
+    padding: 1rem 3.5rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding-right: 14.3rem;
+}
+a{
+    text-decoration: none;
+    color: #a1adc5;
+    
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8rem 0;
+    margin: 0;
+}
+.content-header{
+    width: 360px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.awesome{
+    width: 430px;
+    color: var(--awesome-logo);
+    
+}
+.awesome p{
+    margin: 0.6rem 0;
+    font-size: 18px;
+    line-height: 1.4rem;
+    color: #a1adc5;
+}
+.sign-up{
+    background-color:var(--button);
+    color:var(--awesome-logo);
+    border: none;
+    margin-top: 0.6rem;
+    padding: 0.5rem 1.4rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.random{
+    padding: 6rem 11rem 12rem;
+    background-color: var(--awesome-logo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.info-content{
+    max-width: 220px;
+}
+
+.info-content{
+    margin: 0.6rem 0;
+    font-size: 18px;
+    line-height: 1.4rem;
+    color: #a1adc5;
+}
+
+
+
+
+.info-content img{
+    width: 250px;
+}
+h2{
+    color: var(--dark-background);
+    font-size: 36px;
+    font-weight: b;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a1adc5;
+    text-align: center;
+    padding: 10rem;
+}
+
+.quote-text{
+    font-style: italic;
+
+}
+
+.quote-text p{
+    font-size: 4rem;
+    
+    color: var(--dark-background);
+}
+
+
+.quote-text span{
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+
+
+
+.call-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.call p{
+    font-size: 1.2rem;
+}
+
+.contact{
+    background-color: var(--button);
+    border-radius: 1.2rem;
+    width: 900px; 
+    padding: 0 2.5rem;
+    margin: 10rem auto;
+}
+
+.contact p{
+    color: white;
+}
+
+
+
+.signup-call{
+    
+    color:var(--awesome-logo);
+    background-color: var(--button);
+    border: 2px solid white;    
+    padding: 0.5rem 1.4rem;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+
+#sign{
+    color: rgb(213, 210, 210);
+}
+
+footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--dark-background);
+}
+
+footer p{
+    color: rgb(213, 210, 210);
+}
